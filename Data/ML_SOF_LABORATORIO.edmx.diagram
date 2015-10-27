@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="56613c678c7c4581bb1d8b994a5837a1" Name="Diagram1">
+        <EntityTypeShape EntityType="ML_SOF_LABORATORIO.TBL_RAUDITORIA" Width="1.5" PointX="7.5" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ML_SOF_LABORATORIO.TBL_RCOMPANIA" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="ML_SOF_LABORATORIO.TBL_REMPLEADO" Width="1.5" PointX="3" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ML_SOF_LABORATORIO.TBL_RPERFIL" Width="1.5" PointX="5.25" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ML_SOF_LABORATORIO.TBL_RTIPO_IDENTIFICACION" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="ML_SOF_LABORATORIO.TBL_RUSUARIO" Width="1.5" PointX="5.25" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ML_SOF_LABORATORIO.TBL_UUSUARIO_PERFIL" Width="1.5" PointX="7.5" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="ML_SOF_LABORATORIO.FK_TBL_RAUDITORIA_TBL_RUSUARIO" ManuallyRouted="false" />
+        <AssociationConnector Association="ML_SOF_LABORATORIO.FK_TBL_REMPLEADO_TBL_RCOMPANIA" ManuallyRouted="false" />
+        <AssociationConnector Association="ML_SOF_LABORATORIO.FK_TBL_REMPLEADO_TBL_RTIPO_IDENTIFICACION" ManuallyRouted="false" />
+        <AssociationConnector Association="ML_SOF_LABORATORIO.FK_TBL_RUSUARIO_TBL_REMPLEADO" ManuallyRouted="false" />
+        <AssociationConnector Association="ML_SOF_LABORATORIO.FK_TBL_UUSUARIO_PERFIL_TBL_RPERFIL" ManuallyRouted="false" />
+        <AssociationConnector Association="ML_SOF_LABORATORIO.FK_TBL_UUSUARIO_PERFIL_TBL_RUSUARIO" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

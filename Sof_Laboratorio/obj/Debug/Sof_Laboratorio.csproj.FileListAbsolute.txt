@@ -1,0 +1,14 @@
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Akontrol\Software de Laboratorio\Codigo Fuente\SOF_LABORATORIO\Sof_Laboratorio\bin\Sof_Laboratorio.dll.config
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Akontrol\Software de Laboratorio\Codigo Fuente\SOF_LABORATORIO\Sof_Laboratorio\bin\Sof_Laboratorio.dll
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Akontrol\Software de Laboratorio\Codigo Fuente\SOF_LABORATORIO\Sof_Laboratorio\bin\Sof_Laboratorio.pdb
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Akontrol\Software de Laboratorio\Codigo Fuente\SOF_LABORATORIO\Sof_Laboratorio\bin\Bussines.dll
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Akontrol\Software de Laboratorio\Codigo Fuente\SOF_LABORATORIO\Sof_Laboratorio\bin\Entities.dll
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Akontrol\Software de Laboratorio\Codigo Fuente\SOF_LABORATORIO\Sof_Laboratorio\bin\EntityFramework.dll
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Akontrol\Software de Laboratorio\Codigo Fuente\SOF_LABORATORIO\Sof_Laboratorio\bin\EntityFramework.SqlServer.dll
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Akontrol\Software de Laboratorio\Codigo Fuente\SOF_LABORATORIO\Sof_Laboratorio\bin\Bussines.pdb
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Akontrol\Software de Laboratorio\Codigo Fuente\SOF_LABORATORIO\Sof_Laboratorio\bin\Entities.pdb
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Akontrol\Software de Laboratorio\Codigo Fuente\SOF_LABORATORIO\Sof_Laboratorio\bin\EntityFramework.xml
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Akontrol\Software de Laboratorio\Codigo Fuente\SOF_LABORATORIO\Sof_Laboratorio\bin\EntityFramework.SqlServer.xml
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Akontrol\Software de Laboratorio\Codigo Fuente\SOF_LABORATORIO\Sof_Laboratorio\obj\Debug\Sof_Laboratorio.csprojResolveAssemblyReference.cache
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Akontrol\Software de Laboratorio\Codigo Fuente\SOF_LABORATORIO\Sof_Laboratorio\obj\Debug\Sof_Laboratorio.dll
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Akontrol\Software de Laboratorio\Codigo Fuente\SOF_LABORATORIO\Sof_Laboratorio\obj\Debug\Sof_Laboratorio.pdb

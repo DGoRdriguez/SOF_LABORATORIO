@@ -1,0 +1,11 @@
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Akontrol\Software de Laboratorio\Codigo Fuente\SOF_LABORATORIO\Bussines\bin\Debug\Bussines.dll
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Akontrol\Software de Laboratorio\Codigo Fuente\SOF_LABORATORIO\Bussines\bin\Debug\Bussines.pdb
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Akontrol\Software de Laboratorio\Codigo Fuente\SOF_LABORATORIO\Bussines\bin\Debug\Data.dll
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Akontrol\Software de Laboratorio\Codigo Fuente\SOF_LABORATORIO\Bussines\bin\Debug\Entities.dll
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Akontrol\Software de Laboratorio\Codigo Fuente\SOF_LABORATORIO\Bussines\bin\Debug\EntityFramework.dll
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Akontrol\Software de Laboratorio\Codigo Fuente\SOF_LABORATORIO\Bussines\bin\Debug\Data.pdb
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Akontrol\Software de Laboratorio\Codigo Fuente\SOF_LABORATORIO\Bussines\bin\Debug\Entities.pdb
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Akontrol\Software de Laboratorio\Codigo Fuente\SOF_LABORATORIO\Bussines\bin\Debug\EntityFramework.xml
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Akontrol\Software de Laboratorio\Codigo Fuente\SOF_LABORATORIO\Bussines\obj\Debug\Bussines.csprojResolveAssemblyReference.cache
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Akontrol\Software de Laboratorio\Codigo Fuente\SOF_LABORATORIO\Bussines\obj\Debug\Bussines.dll
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Akontrol\Software de Laboratorio\Codigo Fuente\SOF_LABORATORIO\Bussines\obj\Debug\Bussines.pdb

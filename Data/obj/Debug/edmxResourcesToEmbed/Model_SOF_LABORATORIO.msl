@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MODEL_BD_AKONTROL_SOF_LABORATORIOStoreContainer" CdmEntityContainer="BD_AKONTROL_SOF_LABORATORIO">
+    <EntitySetMapping Name="TBL_RAUDITORIA">
+      <EntityTypeMapping TypeName="MODEL_BD_AKONTROL_SOF_LABORATORIO.TBL_RAUDITORIA">
+        <MappingFragment StoreEntitySet="TBL_RAUDITORIA">
+          <ScalarProperty Name="AUD_NID" ColumnName="AUD_NID" />
+          <ScalarProperty Name="AUD_DFECHA" ColumnName="AUD_DFECHA" />
+          <ScalarProperty Name="USU_NID" ColumnName="USU_NID" />
+          <ScalarProperty Name="AUD_CDESCRIPCION" ColumnName="AUD_CDESCRIPCION" />
+          <ScalarProperty Name="AUD_CTABLA_AFECTADA" ColumnName="AUD_CTABLA_AFECTADA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_RCOMPANIA">
+      <EntityTypeMapping TypeName="MODEL_BD_AKONTROL_SOF_LABORATORIO.TBL_RCOMPANIA">
+        <MappingFragment StoreEntitySet="TBL_RCOMPANIA">
+          <ScalarProperty Name="COM_NID" ColumnName="COM_NID" />
+          <ScalarProperty Name="COM_CNOMBRE" ColumnName="COM_CNOMBRE" />
+          <ScalarProperty Name="COM_OESTADO" ColumnName="COM_OESTADO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_REMPLEADO">
+      <EntityTypeMapping TypeName="MODEL_BD_AKONTROL_SOF_LABORATORIO.TBL_REMPLEADO">
+        <MappingFragment StoreEntitySet="TBL_REMPLEADO">
+          <ScalarProperty Name="EMP_NID" ColumnName="EMP_NID" />
+          <ScalarProperty Name="TID_NID" ColumnName="TID_NID" />
+          <ScalarProperty Name="COM_NID" ColumnName="COM_NID" />
+          <ScalarProperty Name="EMP_CIDENTIFICACION" ColumnName="EMP_CIDENTIFICACION" />
+          <ScalarProperty Name="EMP_CNOMBRES" ColumnName="EMP_CNOMBRES" />
+          <ScalarProperty Name="EMP_CAPELLIDOS" ColumnName="EMP_CAPELLIDOS" />
+          <ScalarProperty Name="EMP_DFECHA_NACIMIENTO" ColumnName="EMP_DFECHA_NACIMIENTO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_RPERFIL">
+      <EntityTypeMapping TypeName="MODEL_BD_AKONTROL_SOF_LABORATORIO.TBL_RPERFIL">
+        <MappingFragment StoreEntitySet="TBL_RPERFIL">
+          <ScalarProperty Name="PER_NID" ColumnName="PER_NID" />
+          <ScalarProperty Name="PER_CDESCRIPCION" ColumnName="PER_CDESCRIPCION" />
+          <ScalarProperty Name="PER_OESTADO" ColumnName="PER_OESTADO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_RTIPO_IDENTIFICACION">
+      <EntityTypeMapping TypeName="MODEL_BD_AKONTROL_SOF_LABORATORIO.TBL_RTIPO_IDENTIFICACION">
+        <MappingFragment StoreEntitySet="TBL_RTIPO_IDENTIFICACION">
+          <ScalarProperty Name="TID_NID" ColumnName="TID_NID" />
+          <ScalarProperty Name="TID_CDESCRIPCION" ColumnName="TID_CDESCRIPCION" />
+          <ScalarProperty Name="TID_OESTADO" ColumnName="TID_OESTADO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_RUSUARIO">
+      <EntityTypeMapping TypeName="MODEL_BD_AKONTROL_SOF_LABORATORIO.TBL_RUSUARIO">
+        <MappingFragment StoreEntitySet="TBL_RUSUARIO">
+          <ScalarProperty Name="USU_NID" ColumnName="USU_NID" />
+          <ScalarProperty Name="EMP_NID" ColumnName="EMP_NID" />
+          <ScalarProperty Name="USU_CUSUARIO" ColumnName="USU_CUSUARIO" />
+          <ScalarProperty Name="USU_CCLAVE" ColumnName="USU_CCLAVE" />
+          <ScalarProperty Name="USU_OESTADO" ColumnName="USU_OESTADO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_UUSUARIO_PERFIL">
+      <EntityTypeMapping TypeName="MODEL_BD_AKONTROL_SOF_LABORATORIO.TBL_UUSUARIO_PERFIL">
+        <MappingFragment StoreEntitySet="TBL_UUSUARIO_PERFIL">
+          <ScalarProperty Name="UUP_NID" ColumnName="UUP_NID" />
+          <ScalarProperty Name="USU_NID" ColumnName="USU_NID" />
+          <ScalarProperty Name="PER_NID" ColumnName="PER_NID" />
+          <ScalarProperty Name="UUP_OESTADO" ColumnName="UUP_OESTADO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

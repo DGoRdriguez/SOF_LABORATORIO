@@ -1,0 +1,12 @@
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Akontrol\Software de Laboratorio\Codigo Fuente\SOF_LABORATORIO\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Akontrol\Software de Laboratorio\Codigo Fuente\SOF_LABORATORIO\Data\bin\Debug\Data.dll.config
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Akontrol\Software de Laboratorio\Codigo Fuente\SOF_LABORATORIO\Data\bin\Debug\Data.dll
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Akontrol\Software de Laboratorio\Codigo Fuente\SOF_LABORATORIO\Data\bin\Debug\Data.pdb
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Akontrol\Software de Laboratorio\Codigo Fuente\SOF_LABORATORIO\Data\bin\Debug\Entities.dll
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Akontrol\Software de Laboratorio\Codigo Fuente\SOF_LABORATORIO\Data\bin\Debug\EntityFramework.dll
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Akontrol\Software de Laboratorio\Codigo Fuente\SOF_LABORATORIO\Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Akontrol\Software de Laboratorio\Codigo Fuente\SOF_LABORATORIO\Data\bin\Debug\Entities.pdb
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Akontrol\Software de Laboratorio\Codigo Fuente\SOF_LABORATORIO\Data\bin\Debug\EntityFramework.xml
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Akontrol\Software de Laboratorio\Codigo Fuente\SOF_LABORATORIO\Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Akontrol\Software de Laboratorio\Codigo Fuente\SOF_LABORATORIO\Data\obj\Debug\Data.dll
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Akontrol\Software de Laboratorio\Codigo Fuente\SOF_LABORATORIO\Data\obj\Debug\Data.pdb

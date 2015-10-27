@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BD_AKONTROL_SOF_LABORATORIOModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="TBL_RCOMPANIA">
+    <Key>
+      <PropertyRef Name="COM_NID" />
+    </Key>
+    <Property Name="COM_NID" Type="Int64" Nullable="false" />
+    <Property Name="COM_CNOMBRE" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="COM_OESTADO" Type="Boolean" Nullable="false" />
+    <Property Name="USU_NID_CREA" Type="Int64" Nullable="false" />
+    <Property Name="USU_NID_MODIFICA" Type="Int64" />
+    <Property Name="COM_DFECHA_CREA" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="COM_DFECHA_MODIFICA" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="TBL_REMPLEADO" Relationship="Self.FK_TBL_REMPLEADO_TBL_RCOMPANIA" FromRole="TBL_RCOMPANIA" ToRole="TBL_REMPLEADO" />
+  </EntityType>
+  <EntityType Name="TBL_REMPLEADO">
+    <Key>
+      <PropertyRef Name="EMP_NID" />
+    </Key>
+    <Property Name="EMP_NID" Type="Int64" Nullable="false" />
+    <Property Name="TID_NID" Type="Int64" Nullable="false" />
+    <Property Name="COM_NID" Type="Int64" Nullable="false" />
+    <Property Name="EMP_CIDENTIFICACION" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="EMP_CNOMBRES" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="EMP_CAPELLIDOS" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="EMP_DFECHA_NACIMIENTO" Type="DateTime" Nullable="false" Precision="0" />
+    <NavigationProperty Name="TBL_RCOMPANIA" Relationship="Self.FK_TBL_REMPLEADO_TBL_RCOMPANIA" FromRole="TBL_REMPLEADO" ToRole="TBL_RCOMPANIA" />
+    <NavigationProperty Name="TBL_RTIPO_IDENTIFICACION" Relationship="Self.FK_TBL_REMPLEADO_TBL_RTIPO_IDENTIFICACION" FromRole="TBL_REMPLEADO" ToRole="TBL_RTIPO_IDENTIFICACION" />
+    <NavigationProperty Name="TBL_RUSUARIO" Relationship="Self.FK_TBL_RUSUARIO_TBL_REMPLEADO" FromRole="TBL_REMPLEADO" ToRole="TBL_RUSUARIO" />
+  </EntityType>
+  <EntityType Name="TBL_RPERFIL">
+    <Key>
+      <PropertyRef Name="PER_NID" />
+    </Key>
+    <Property Name="PER_NID" Type="Int64" Nullable="false" />
+    <Property Name="PER_CDESCRIPCION" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PER_OESTADO" Type="Boolean" Nullable="false" />
+    <Property Name="USU_NID_CREA" Type="Int64" Nullable="false" />
+    <Property Name="USU_NID_MODIFICA" Type="Int64" />
+    <Property Name="PER_DFECHA_CREA" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="PER_DFECHA_MODIFICA" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="TBL_UUSUARIO_PERFIL" Relationship="Self.FK_TBL_UUSUARIO_PERFIL_TBL_RPERFIL" FromRole="TBL_RPERFIL" ToRole="TBL_UUSUARIO_PERFIL" />
+  </EntityType>
+  <EntityType Name="TBL_RTIPO_IDENTIFICACION">
+    <Key>
+      <PropertyRef Name="TID_NID" />
+    </Key>
+    <Property Name="TID_NID" Type="Int64" Nullable="false" />
+    <Property Name="TID_CDESCRIPCION" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TID_OESTADO" Type="Boolean" Nullable="false" />
+    <Property Name="USU_NID_CREA" Type="Int64" Nullable="false" />
+    <Property Name="USU_NID_MODIFICA" Type="Int64" />
+    <Property Name="TID_DFECHA_CREA" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="TID_DFECHA_MODIFICA" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="TBL_REMPLEADO" Relationship="Self.FK_TBL_REMPLEADO_TBL_RTIPO_IDENTIFICACION" FromRole="TBL_RTIPO_IDENTIFICACION" ToRole="TBL_REMPLEADO" />
+  </EntityType>
+  <EntityType Name="TBL_RUSUARIO">
+    <Key>
+      <PropertyRef Name="USU_NID" />
+    </Key>
+    <Property Name="USU_NID" Type="Int64" Nullable="false" />
+    <Property Name="TID_NID" Type="Int64" Nullable="false" />
+    <Property Name="EMP_NID" Type="Int64" />
+    <Property Name="USU_CUSUARIO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="USU_CCLAVE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="USU_DFECHA_CREA" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="USU_DFECHA_MODIFICA" Type="DateTime" Precision="3" />
+    <Property Name="USU_NID_CREA" Type="Int64" Nullable="false" />
+    <Property Name="USU_NID_MODIFICA" Type="Int64" Nullable="false" />
+    <Property Name="USU_OESTADO" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="TBL_REMPLEADO" Relationship="Self.FK_TBL_RUSUARIO_TBL_REMPLEADO" FromRole="TBL_RUSUARIO" ToRole="TBL_REMPLEADO" />
+    <NavigationProperty Name="TBL_UUSUARIO_PERFIL" Relationship="Self.FK_TBL_UUSUARIO_PERFIL_TBL_RUSUARIO" FromRole="TBL_RUSUARIO" ToRole="TBL_UUSUARIO_PERFIL" />
+  </EntityType>
+  <EntityType Name="TBL_UUSUARIO_PERFIL">
+    <Key>
+      <PropertyRef Name="UUP_NID" />
+    </Key>
+    <Property Name="UUP_NID" Type="Int64" Nullable="false" />
+    <Property Name="USU_NID" Type="Int64" Nullable="false" />
+    <Property Name="PER_NID" Type="Int64" Nullable="false" />
+    <Property Name="UUP_OESTADO" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="TBL_RPERFIL" Relationship="Self.FK_TBL_UUSUARIO_PERFIL_TBL_RPERFIL" FromRole="TBL_UUSUARIO_PERFIL" ToRole="TBL_RPERFIL" />
+    <NavigationProperty Name="TBL_RUSUARIO" Relationship="Self.FK_TBL_UUSUARIO_PERFIL_TBL_RUSUARIO" FromRole="TBL_UUSUARIO_PERFIL" ToRole="TBL_RUSUARIO" />
+  </EntityType>
+  <Association Name="FK_TBL_REMPLEADO_TBL_RCOMPANIA">
+    <End Role="TBL_RCOMPANIA" Type="Self.TBL_RCOMPANIA" Multiplicity="1" />
+    <End Role="TBL_REMPLEADO" Type="Self.TBL_REMPLEADO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TBL_RCOMPANIA">
+        <PropertyRef Name="COM_NID" />
+      </Principal>
+      <Dependent Role="TBL_REMPLEADO">
+        <PropertyRef Name="COM_NID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TBL_REMPLEADO_TBL_RTIPO_IDENTIFICACION">
+    <End Role="TBL_RTIPO_IDENTIFICACION" Type="Self.TBL_RTIPO_IDENTIFICACION" Multiplicity="1" />
+    <End Role="TBL_REMPLEADO" Type="Self.TBL_REMPLEADO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TBL_RTIPO_IDENTIFICACION">
+        <PropertyRef Name="TID_NID" />
+      </Principal>
+      <Dependent Role="TBL_REMPLEADO">
+        <PropertyRef Name="TID_NID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TBL_RUSUARIO_TBL_REMPLEADO">
+    <End Role="TBL_REMPLEADO" Type="Self.TBL_REMPLEADO" Multiplicity="0..1" />
+    <End Role="TBL_RUSUARIO" Type="Self.TBL_RUSUARIO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TBL_REMPLEADO">
+        <PropertyRef Name="EMP_NID" />
+      </Principal>
+      <Dependent Role="TBL_RUSUARIO">
+        <PropertyRef Name="EMP_NID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TBL_UUSUARIO_PERFIL_TBL_RPERFIL">
+    <End Role="TBL_RPERFIL" Type="Self.TBL_RPERFIL" Multiplicity="1" />
+    <End Role="TBL_UUSUARIO_PERFIL" Type="Self.TBL_UUSUARIO_PERFIL" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TBL_RPERFIL">
+        <PropertyRef Name="PER_NID" />
+      </Principal>
+      <Dependent Role="TBL_UUSUARIO_PERFIL">
+        <PropertyRef Name="PER_NID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TBL_UUSUARIO_PERFIL_TBL_RUSUARIO">
+    <End Role="TBL_RUSUARIO" Type="Self.TBL_RUSUARIO" Multiplicity="1" />
+    <End Role="TBL_UUSUARIO_PERFIL" Type="Self.TBL_UUSUARIO_PERFIL" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TBL_RUSUARIO">
+        <PropertyRef Name="USU_NID" />
+      </Principal>
+      <Dependent Role="TBL_UUSUARIO_PERFIL">
+        <PropertyRef Name="USU_NID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DB_Entities_SofLaboratorio" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="TBL_RCOMPANIA" EntityType="Self.TBL_RCOMPANIA" />
+    <EntitySet Name="TBL_REMPLEADO" EntityType="Self.TBL_REMPLEADO" />
+    <EntitySet Name="TBL_RPERFIL" EntityType="Self.TBL_RPERFIL" />
+    <EntitySet Name="TBL_RTIPO_IDENTIFICACION" EntityType="Self.TBL_RTIPO_IDENTIFICACION" />
+    <EntitySet Name="TBL_RUSUARIO" EntityType="Self.TBL_RUSUARIO" />
+    <EntitySet Name="TBL_UUSUARIO_PERFIL" EntityType="Self.TBL_UUSUARIO_PERFIL" />
+    <AssociationSet Name="FK_TBL_REMPLEADO_TBL_RCOMPANIA" Association="Self.FK_TBL_REMPLEADO_TBL_RCOMPANIA">
+      <End Role="TBL_RCOMPANIA" EntitySet="TBL_RCOMPANIA" />
+      <End Role="TBL_REMPLEADO" EntitySet="TBL_REMPLEADO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TBL_REMPLEADO_TBL_RTIPO_IDENTIFICACION" Association="Self.FK_TBL_REMPLEADO_TBL_RTIPO_IDENTIFICACION">
+      <End Role="TBL_RTIPO_IDENTIFICACION" EntitySet="TBL_RTIPO_IDENTIFICACION" />
+      <End Role="TBL_REMPLEADO" EntitySet="TBL_REMPLEADO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TBL_RUSUARIO_TBL_REMPLEADO" Association="Self.FK_TBL_RUSUARIO_TBL_REMPLEADO">
+      <End Role="TBL_REMPLEADO" EntitySet="TBL_REMPLEADO" />
+      <End Role="TBL_RUSUARIO" EntitySet="TBL_RUSUARIO" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TBL_UUSUARIO_PERFIL_TBL_RPERFIL" Association="Self.FK_TBL_UUSUARIO_PERFIL_TBL_RPERFIL">
+      <End Role="TBL_RPERFIL" EntitySet="TBL_RPERFIL" />
+      <End Role="TBL_UUSUARIO_PERFIL" EntitySet="TBL_UUSUARIO_PERFIL" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TBL_UUSUARIO_PERFIL_TBL_RUSUARIO" Association="Self.FK_TBL_UUSUARIO_PERFIL_TBL_RUSUARIO">
+      <End Role="TBL_RUSUARIO" EntitySet="TBL_RUSUARIO" />
+      <End Role="TBL_UUSUARIO_PERFIL" EntitySet="TBL_UUSUARIO_PERFIL" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

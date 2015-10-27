@@ -1,0 +1,7 @@
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Akontrol\Software de Laboratorio\Codigo Fuente\SOF_LABORATORIO\sw_Sof_Laboratorio\bin\Debug\sw_Sof_Laboratorio.exe
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Akontrol\Software de Laboratorio\Codigo Fuente\SOF_LABORATORIO\sw_Sof_Laboratorio\bin\Debug\sw_Sof_Laboratorio.pdb
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Akontrol\Software de Laboratorio\Codigo Fuente\SOF_LABORATORIO\sw_Sof_Laboratorio\obj\Debug\sw_Sof_Laboratorio.exe
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Akontrol\Software de Laboratorio\Codigo Fuente\SOF_LABORATORIO\sw_Sof_Laboratorio\obj\Debug\sw_Sof_Laboratorio.pdb
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Akontrol\Software de Laboratorio\Codigo Fuente\SOF_LABORATORIO\sw_Sof_Laboratorio\obj\Debug\sw_Sof_Laboratorio.sw_Inst_Sof_Laboratorio.resources
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Akontrol\Software de Laboratorio\Codigo Fuente\SOF_LABORATORIO\sw_Sof_Laboratorio\obj\Debug\sw_Sof_Laboratorio.csproj.GenerateResource.Cache
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Akontrol\Software de Laboratorio\Codigo Fuente\SOF_LABORATORIO\sw_Sof_Laboratorio\obj\Debug\sw_Sof_Laboratorio.sw_Sof_Laboratorio.resources

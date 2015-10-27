@@ -1,0 +1,5 @@
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Akontrol\Software de Laboratorio\Codigo Fuente\SOF_LABORATORIO\ws_Sof_Laboratorio\bin\ws_Sof_Laboratorio.dll.config
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Akontrol\Software de Laboratorio\Codigo Fuente\SOF_LABORATORIO\ws_Sof_Laboratorio\bin\ws_Sof_Laboratorio.dll
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Akontrol\Software de Laboratorio\Codigo Fuente\SOF_LABORATORIO\ws_Sof_Laboratorio\bin\ws_Sof_Laboratorio.pdb
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Akontrol\Software de Laboratorio\Codigo Fuente\SOF_LABORATORIO\ws_Sof_Laboratorio\obj\Debug\ws_Sof_Laboratorio.dll
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Akontrol\Software de Laboratorio\Codigo Fuente\SOF_LABORATORIO\ws_Sof_Laboratorio\obj\Debug\ws_Sof_Laboratorio.pdb
